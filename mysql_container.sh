@@ -1,0 +1,1 @@
+docker run --name test-db --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Test1234! -e MYSQL_DATABASE=test-db -d mysql:8.0.22 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci

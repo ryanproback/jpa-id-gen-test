@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: mysql
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test-db?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: Test1234!
+    driver-class-name: com.mysql.jdbc.Driver
